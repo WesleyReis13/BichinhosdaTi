@@ -1,27 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 nav{
     font-weight: bold;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 img{
-    border-radius: 10px;
+    margin-top: -7px;
+    border-radius: 18px;
+    margin-right: 7px;
+    height: 37px;
+    
 }
 ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-right: 450px;
 }
-.button{
+li{
+    margin-top: 5px;
+}
+a{
     display: flex;
-    justify-content: flex-end;
-    border: 1px solid purple;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px;
+    color: black;
 }
-
-button{
-    width: 113px;
-    height: 55px;
+.ButtonEntrar{
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
     background-color: #F76B00;
     color: white;
     border-radius: 10px;
     border: none;
+}
+.formLogin{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    width: 320px;
+    height: 450px;
+}
+h1{
+    font-family:"Krona One", sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: start;
+}
+label{
+    padding: 10px;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+form > input{
+    padding: 5px;
+    height: 35px;
+    width: 292px;
+    margin: 0 auto;
+}
+.esqueceuSenha{
+    font-family: "Inter", sans-serif;
+    color: #33C4CB;
+    justify-content: end;
 }

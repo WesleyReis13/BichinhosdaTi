@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import TelaLogin from './components/TelaLogin.jsx';
+import TelaLogin from './components/TelaLogin.js';
 
 function App() {
   return (
