@@ -1,0 +1,27 @@
+nav{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid purple;
+}
+
+button{
+    width: 113px;
+    height: 55px;
+    background-color: #F76B00;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
