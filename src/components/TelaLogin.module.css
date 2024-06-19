@@ -29,6 +29,11 @@ a{
     padding: 10px;
     margin-top: 5px;
     color: black;
+    font-size: 13px;
+}
+.LogoLink{
+    font-family: "Krona One", sans-serif;
+    color: #283559;
 }
 .ButtonEntrar{
     font-family: "Krona One", sans-serif;
@@ -44,17 +49,19 @@ a{
 .formLogin{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 form{
     margin: 0 auto;
-    padding: 50px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     background-color: #FFFF;
     width: 320px;
-    height: 450px;
+    height: 430px;
 }
 h1{
+    color: #283559;
     font-family:"Krona One", sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     text-align: start;
@@ -73,6 +80,46 @@ form > input{
 }
 .esqueceuSenha{
     font-family: "Inter", sans-serif;
+    font-weight: Regular;
     color: #33C4CB;
     justify-content: end;
 }
+.ButtonLogin{
+    font-family: "Inter", sans-serif;
+    color: #FFFF;
+    border: none;
+    border-radius: 5px;
+    background-color: #F76B00;
+    height: 80px;
+}
+.InputGoogle{
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 17px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.LogoGoogle{
+    height: 25px;
+}
+.CadAqui{
+    margin: 0 auto;
+    padding: 5px;
+}
+.CadAqui p{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    padding: 5px;
+   
+}
+.CadAqui a{
+    font-size: 13px;
+    color: #33C4CB;
+    margin: -10px;
+}
+
+
