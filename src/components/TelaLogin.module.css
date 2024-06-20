@@ -1,51 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-nav{
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-img{
-    margin-top: -7px;
-    border-radius: 18px;
-    margin-right: 7px;
-    height: 37px;
-    
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-right: 450px;
-}
-li{
-    margin-top: 5px;
-}
-a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding: 10px;
-    margin-top: 5px;
-    color: black;
-    font-size: 13px;
-}
-.LogoLink{
-    font-family: "Krona One", sans-serif;
-    color: #283559;
-}
-.ButtonEntrar{
-    font-family: "Krona One", sans-serif;
-    font-style: normal;
-    margin-top: 10px;
-    width: 70px;
-    height: 40px;
-    background-color: #F76B00;
-    color: white;
-    border-radius: 10px;
-    border: none;
-}
 .formLogin{
     display: flex;
     justify-content: center;
@@ -91,6 +45,7 @@ form > input{
     border-radius: 5px;
     background-color: #F76B00;
     height: 80px;
+    width: 320px;
 }
 .InputGoogle{
     font-family: "Inter", sans-serif;

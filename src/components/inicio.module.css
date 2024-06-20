@@ -1,0 +1,29 @@
+.inicio{
+    padding: 40px;
+}
+h2{
+    padding: 5px;
+    font-weight: normal;
+}
+.projetos img  {
+    height: 150px;
+    width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.avisosSquad img  {
+    height: 150px;
+    width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.MostrarMais{
+   font-family: "Inter", sans-serif;
+   background-color: #283559;
+   color: #fff;
+   padding: 10px;
+   border-radius: 30px;
+   width: 200px;
+}
