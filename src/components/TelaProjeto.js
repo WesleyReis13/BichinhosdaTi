@@ -29,20 +29,6 @@ const TelaProjeto = () => (
                 <p>Arquivos: Lorem Ipsulum</p>
             </div>
         </div>
-        <div className={Styles.CardLideres}>
-             <div className={Styles.lideres}>
-                <h3>Líderes</h3>
-                <div className={Styles.FotoLider}>.</div>
-                <p>líder 1</p>
-                <img src={Email}></img>
-                <div className={Styles.FotoLider}>.</div>
-                <p>líder 2</p>
-                <img src={Email}></img>
-                <div className={Styles.FotoLider}>.</div>
-                <p>líder 3</p>
-                <img src={Email}></img>
-            </div>
-        </div>
   </div>
 );
 
